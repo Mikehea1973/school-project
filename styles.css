@@ -1,0 +1,69 @@
+
+
+body {
+
+    color: #a64d79;
+    margin: 0;
+    text-align: center;
+    font-family:'Fantasy' , serif;
+}
+    
+
+@media (prefers-color-scheme: dark) {
+    :root{color: #578fca;}
+
+}
+h1 {
+    color:  #0a4be4;
+    font-weight: bold;
+    margin: 50px auto 0 auto;
+    font-family: Fantasy cursive;
+}
+h2 {
+     color:  #d427a3;
+     font-family: 'gummy' , sans-serif;
+     padding-bottom: 10px;
+}
+
+h3 {
+     color: #19cc4c;
+    font-family: 'Fantasy' , sans-serif;
+    padding-bottom: 10px;
+}
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 5px 20px;
+}
+
+.fa-github {
+    background: #00aff0;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #00aff0
+    ;
+    color: rgb(242, 238, 238);
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: rgb(232, 231, 231);
+}
